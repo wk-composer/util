@@ -1,5 +1,5 @@
 <?php
-namespace wkUtil\helpers;
+namespace walkskyer\util\helpers;
 
 
 class Zip{

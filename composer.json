@@ -16,8 +16,8 @@
     },
     "autoload": {
         "psr-4": {
-            "wkUtil\\": "src/",
-            "wkUtil\\helpers\\": "src/helpers"
+            "walkskyer\\util\\": "src/",
+            "walkskyer\\util\\helpers\\": "src/helpers"
         }
     }
 }

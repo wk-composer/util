@@ -6,7 +6,7 @@
  * Time: 11:04
  */
 
-use wkUtil\helpers\Zip;
+use walkskyer\util\helpers\Zip;
 
 use PHPUnit\Framework\TestCase;
 
