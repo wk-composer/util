@@ -1,0 +1,23 @@
+{
+    "name": "walkskyer/util",
+    "description": "php tools kit",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "walkskyer",
+            "email": "walkskyer@qq.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "5.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "wkUtil\\": "src/",
+            "wkUtil\\helpers\\": "src/helpers"
+        }
+    }
+}
