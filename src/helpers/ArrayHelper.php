@@ -14,7 +14,7 @@ class ArrayHelper{
      * shuffle array an keep the origin key
      * @param $array
      */
-    public static function shuffle(&$array){
+    public static function shuffleKey(&$array){
         $arr_keys = array_keys($array);
         shuffle($arr_keys);
         $tmp = array();
