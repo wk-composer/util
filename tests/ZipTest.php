@@ -6,7 +6,7 @@
  * Time: 11:04
  */
 
-use walkskyer\util\helpers\Zip;
+use walkskyer\util\helpers\ZipHelper;
 
 use PHPUnit\Framework\TestCase;
 
@@ -22,7 +22,7 @@ class ZipTest extends TestCase{
         $zip = new \ZipArchive();
         if ($zip->open($file, \ZipArchive::CREATE | \ZipArchive::OVERWRITE) === TRUE) {
             if (file_exists($path)) {
-                Zip::addFileToZip($path, $zip);
+                ZipHelper::addFileToZip($path, $zip);
             }
 
             $zip->close();

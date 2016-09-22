@@ -9,8 +9,7 @@
 namespace walkskyer\util\helpers;
 
 
-class Form
-{
+class FormHelper{
 
     /**
      * Form Value

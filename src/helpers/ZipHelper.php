@@ -1,8 +1,12 @@
 <?php
+
 namespace walkskyer\util\helpers;
 
-
-class Zip{
+/**
+ * Class ZipHelper
+ * @package walkskyer\util\helpers
+ */
+class ZipHelper{
 
     /**
      * add file or dir to a zip file
