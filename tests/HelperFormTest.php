@@ -17,5 +17,6 @@ class HelperFormTest extends PHPUnit_Framework_TestCase
             $this->assertEquals(FormHelper::getValue($k), $v);
         }
         $this->assertEquals(FormHelper::getValue('d'),$_GET['d']);
+        $this->assertEquals(FormHelper::getValue('x','z'),'z');
     }
 }
