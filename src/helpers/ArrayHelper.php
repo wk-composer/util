@@ -11,7 +11,7 @@ namespace walkskyer\util\helpers;
 
 class ArrayHelper{
     /**
-     * shuffle array an keep the origin key
+     * shuffle array and keep the origin key
      * @param $array
      */
     public static function shuffleKey(&$array){
@@ -21,9 +21,8 @@ class ArrayHelper{
         foreach($arr_keys as $k){
             $tmp[$k] = $array[$k];
         }
-        $array = &$tmp;
+        $array = $tmp;
         unset($tmp);
         unset($arr_keys);
     }
-
 }
