@@ -11,11 +11,22 @@ namespace walkskyer\util\helpers;
 
 class AgentHelper{
     /**
-     * return the client ip use int value
+     * convert ip value to int value
+     *
+     * @param string $ip ip address string
      * @return number
      */
-    public static function client_ip(){
-        return bindec(decbin(ip2long($_SERVER['REMOTE_ADDR'])));
+    public static function ip2int($ip){
+        return bindec(decbin(ip2long($ip)));
+    }
+
+    /**
+     * return the client ip
+     *
+     * @return mixed
+     */
+    public static function clientIP(){
+        return $_SERVER['REMOTE_ADDR'];
     }
 
 }
