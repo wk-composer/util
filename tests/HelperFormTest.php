@@ -7,7 +7,7 @@
  * Time: 13:50
  */
 use walkskyer\util\helpers\FormHelper;
-class FormTest extends PHPUnit_Framework_TestCase
+class HelperFormTest extends PHPUnit_Framework_TestCase
 {
     public function testGetValue(){
         $_GET=array('a'=>'V_a','b'=>'V_b','c'=>'V_c','d'=>'V_d',);

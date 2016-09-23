@@ -11,7 +11,7 @@ use walkskyer\util\helpers\ZipHelper;
 use PHPUnit\Framework\TestCase;
 
 
-class ZipTest extends TestCase{
+class HelperZipTest extends TestCase{
 
     public function testAddFileToZip(){
         $path = __DIR__.'/test_env/zip/test_files';
